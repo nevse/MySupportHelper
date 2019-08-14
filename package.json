@@ -1,0 +1,24 @@
+{
+  "name": "MySupportHelper",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npx webpack-dev-server --port 57",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"    
+  },
+  "dependencies": {    
+    "webpack": "^4.39.1",    
+    "clipboard-polyfill": "^2.8.1",
+    "jquery": "^3.4.1",
+    "webpack-userscript": "^2.3.1"
+  }
+}

@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+dist/MySupportHelper.meta.js 
+dist/MySupportHelper.user.js 
+/.vscode/settings.json
+package-lock.json
